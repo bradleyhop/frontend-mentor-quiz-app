@@ -1,0 +1,42 @@
+@mixin display {
+  font-size: 144px;
+  line-height: 1;
+  font-weight: 500;
+}
+
+@mixin heading-l-bold {
+  font-size: 64px;
+  line-height: 1;
+  font-weight: 500;
+}
+
+@mixin heading-l {
+  font-size: 64px;
+  line-height: 1;
+  font-weight: 400;
+}
+
+@mixin heading-m {
+  font-size: 36px;
+  line-height: 1;
+  font-weight: 400;
+}
+
+@mixin heading-s {
+  font-size: 28px;
+  line-height: 1;
+  font-weight: 400;
+}
+
+@mixin body-m {
+  font-size: 12px;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+@mixin body-s {
+  font-size: 12px;
+  line-height: 1.5;
+  font-weight: 400;
+  font-style: italic;
+}

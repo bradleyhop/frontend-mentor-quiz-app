@@ -1,0 +1,8 @@
+@import "colors";
+@import "typography";
+
+body {
+  font-family: Rubik, sans-serif;
+  color: $dark-grey;
+  background-color: $light-grey;
+}
