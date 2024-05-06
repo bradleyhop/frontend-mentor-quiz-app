@@ -13,16 +13,16 @@ defineProps({
   </button>
 </template>
 
-<style lang="scss" scoped>
+<style scopped lang="scss">
 button {
   color: $white;
   background-color: $purple;
   min-width: 200px;
   min-height: 92px;
   border-radius: 24px;
+  border: none;
 
   // typography
-  text-align: center;
   text-transform: uppercase;
   font-family: Rubik, sans-serif;
   font-weight: 500;

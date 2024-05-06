@@ -5,20 +5,22 @@ import { defineNuxtConfig } from "nuxt/config";
 export default defineNuxtConfig({
   devtools: { enabled: true },
 
-  head: {
-    title: "Frontend Mentor | Quiz App",
-    author: "Bradley Smith",
-    meta: [
-      { charset: "utf-8" },
-      { name: "viewport", content: "width=device-width, initial-scale=1" },
-    ],
-    link: [
-      {
-        rel: "icon",
-        type: "image/png",
-        href: "/favicon-32x32.png",
-      },
-    ],
+  app: {
+    head: {
+      title: "Frontend Mentor | Quiz App",
+      author: "Bradley Smith",
+      meta: [
+        { charset: "utf-8" },
+        { name: "viewport", content: "width=device-width, initial-scale=1" },
+      ],
+      link: [
+        {
+          rel: "icon",
+          type: "image/png",
+          href: "/favicon-32x32.png",
+        },
+      ],
+    },
   },
 
   modules: [

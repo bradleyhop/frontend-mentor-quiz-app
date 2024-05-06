@@ -4,5 +4,29 @@
 body {
   font-family: Rubik, sans-serif;
   color: $dark-grey;
+  background-image: url("~/assets/img/pattern-background-desktop-light.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
   background-color: $light-grey;
+}
+
+/*
+ * Device breakpoints mixins; check it and see
+ */
+@mixin tablet-breakpoint {
+  @media (width >= 48em) {
+    @content;
+  }
+}
+
+@mixin desktop-breakpoint {
+  @media (width >= 75em) {
+    @content;
+  }
+}
+
+@mixin large-desktop-breakpoint {
+  @media (width >= 87.5em) {
+    @content;
+  }
 }
